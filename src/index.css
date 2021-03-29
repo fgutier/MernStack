@@ -4,6 +4,7 @@
   --gris2: #2f3848;
   --gris3: #1a202d;
   --negro: #000000;
+  --rojo: #e2705c;
   --headingFont:'Raleway', sans-serif;
   --textFont:  'Roboto', sans-serif;
 }
@@ -86,6 +87,11 @@ a {
   padding: 0;
   display: block;
   background-color: transparent;
+}
+
+.btn-eliminar {
+  background-color: var(--rojo);
+  color: var(--blanco);
 }
 
 @media (min-width: 768px) {
